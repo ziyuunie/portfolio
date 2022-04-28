@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="script.js"></script>
+</head>
+
+<body>
+
+<!-- MENU -->
+
+<div class="menu" id="myMenu">
+    <a href="index.html" class="inactive">Home</a>
+    <a href="about.html" class="inactive">About</a>
+    <div class="dropdown">
+        <button class="dropbtn">Work &nbsp;
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+            <a href="spin.html">Spin Dashboard</a>
+            <a href="mysleep.html">MySleep</a>
+            <a href="onestop.html">OneStopPGH</a>
+        </div>
+    </div>
+    <a href="https://drive.google.com/file/d/1qhVNtvJ2KVQ9paKAxppkxDeh5rPAeAQp/view?usp=sharing" target="_blank" class="inactive">Resume</a>
+    <a href="javascript:void(0);" class="icon" onclick="responsiveMenu()">&#9776;</a>
+</div>
+
+<hr class="long">
+
+<!-- CONTENT -->
+
+<div class="mysleepapp" style="margin-left: 10%; margin-right: 10%;">
+
+    <div class="title" style="margin-top: 10%; margin-bottom: -2%;">
+        <h5>MySleep</h5>
+    </div>
+
+    <div class="header" style="margin-bottom: 5%;">
+        <img src="mysleep.jpg" alt="MySleep app mockup" width="100%">
+    </div>
+
+    <div class="row3" style="margin-bottom: 5%;">
+        <div class="column3 left3">
+            <h3 class="fadein">Overview</h3>
+            <p class="bold">Objective</p>
+            <p style="padding-right: 10%;">For this assignment, we were told to imagine that we were working for an organization interested in bringing about a service orientation to augment the organization's traditionally product-centric offerings. The hope was that this hybrid product/service approach would provide value to the organization by deepening relationships with their stakeholders and/or creating new audiences for their offerings. The organization we were assigned was ResMed, a San Diego-based medical device company.<br><br>
+            Our task was defining what the service should be and designing a new mobile app to bring the service to a set of stakeholders. This mobile app would take advantage of native smartphone capabilities to address a context-specific pain point or opportunity within the organization.</p>
+        </div>
+        <div class="column3 right3">
+            <p class="bold">Team</p>
+            <p>Vikitha Bezawada<br>
+               Mabel Tsado<br>
+               Senhao Wang</p>
+            <p class="bold">Duration</p>
+            <p>January 15 - February 20, 2022</p>
+        </div>
+    </div>
+
+    <div class="content" style="margin-bottom: 5%;">
+        <h3 class="fadein">Research</h3>
+        <p class="bold">Domain & Company Research</p>
+        <p>First, to do some initial research about ResMed, we created an informal but organized research report, capturing the collective knowledge we gathered about ResMed. This report included ResMed's history, branding, methods of operation and organization, attributes, and short-term and long-term goals. Regarding the market space, we researched domain history, key technological and cultural developments, both traditional and insurgent competitors, and constraints within the domain.</p>
+        <p class="bold">Stakeholders</p>
+        <p>After our initial research, we created a report covering internal and external stakeholders associated with ResMed and its domain. This included their goals, needs, preferences, key attributes, and, for the external stakeholders, jobs-to-be-done that they turn to ResMed to fulfill. Most of the internal stakeholder’s goals aligned as they were working together to make and improve ResMed products, as well as the business as a whole.<br><br>
+        With the information gathered in this report, we then created a stakeholder map with value flows. When we were putting together the stakeholder map, we kept our stakeholder groupings but highlighted how they would interact with each other based on their goals. Highlighting helped us shape the interactions and the flow of the stakeholder map by displaying overlap between the different stakeholders.</p>
+        <img src="stakeholders.png" class="fadein" alt="Map of ResMed's stakeholders" width="100%">
+        <p class="bold">Problem Space</p>
+        <p>With the information from our research, we decided to focus on improving the CPAP machine and app experience. ResMed's current app for connecting to their CPAP machine is the myAir app, which allows the users to see their myAir score (calculated by the mask and mask usage from the previous night). <br><br>
+        To understand how users felt about the current app and identify any pain points, we looked at customer reviews of the myAir app. We found users complained that the current app was difficult to use and felt that it didn’t give them enough information about the factors for the myAir score and how to improve their sleeping experience. They also felt that customer service wasn’t always efficient and it was difficult to receive help quickly when needed.</p>
+    </div>
+
+    <div class="content" style="margin-bottom: 5%;">
+        <h3 class="fadein">Ideation</h3>
+        <p class="bold">Target Customers</p>
+        <p>In order to get a grasp of the specific features we wanted to design and what exact pain points to address, we decided to create a customer persona and highlight their goals, their motivation for needing our solution, and their pain points with the current solution.</p>
+        <img src="persona.png" class="fadein" alt="ResMed customer persona" width="100%">
+    </div>
+
+    <div class="content" style="margin-bottom: 5%;">
+        <h3 class="fadein">Prototyping</h3>
+        <p class="bold">Initial Hand-Drawn Sketches</p>
+        <p>We began our prototyping for MySleep through a series of brainstorming sessions, where we came to the conclusion that we wanted to design an application that could bring curated sleeping experience. Our new design brings to our customer their detailed sleeping data and help them understand how to improve their sleep. Our initial sketches emcompassed three main pages - a page providing an easy-to-read summary, a statistics page, and a page with sleep tools. <br><br>
+        Based on feedback from your classmates, we considered using sleep tools to connect our users to their physicians, so that patients can receive seamless help.</p>
+        <img src="mysleepsketch.png" class="fadein" alt="Initial Hand-Drawn Sketches of MySleep app" width="100%">
+        <p class="bold">Low-Fidelity Digital Prototype</p>
+        <p>The next step of our prototyping was transferring our ideas onto a digital format on Figma. We specifically focused on microinteractions between the different pages and the user flow. <br><br>
+        Critique from our classmates and professors for this iteration mentioned specifying how the user might use the data, focusing on how to help the user do the right thing to improve their sleep, and that some of the functions on the device page might be redundant. We also realized that most users prefer to use the alarm app already installed on their phone.</p>
+        <img src="mysleeplow.png" class="fadein" alt="Low-Fidelity digital prototype of MySleep app" width="100%">
+        <p class="bold">Mid-Fidelity Digital Prototype</p>
+        <p>Transitioning from low-fidelity to mid-fidelity, our team decided to implement several new features based on feedback to help our user to understand their sleep metrics. For the landing screen, we implemented a notification function to give a more condensed summary of the user's sleep and draw their attention to what they needed to fix. Under the logged data, the user can expand and see information on how to intepret and improve on their sleep. To further develop the idea of connecting our users to other people, we decided to change the set-up page to an informational page. Leveraging ResMed's comprehensive guidance videos, we designed a page that helping users get a headstart on using ResMed machine. On this page, users can filter by device, mask type, and language to get a curated sequence of guidance videos.<br><br>
+        At the midpoint of designing for this prototype, we received feedback mentioning the repetitive functionalities of the bedtime schedule and alarm pages due to existing OS. We decided this was not within our focus for this problem scope and ultimately removed these pages. After completion of our mid-fidelity prototype, we received critique on how we planned to differentiate between home page and activity page.</p>
+        <img src="mysleepmid.png" class="fadein" alt="Mid-Fidelity digital prototype of MySleep app" width="100%">
+        <p class="bold">High-Fidelity Digital Prototype</p>
+        <p>TIn the high-fidelity stage of prototyping, we narrowed in on the user experience that each aspect of our data collection provides. This meant allowing users to be able to fully understand the data the app was showing them by providing explanations and providing visible and immediate notifications to draw their attention to any possible issues. To further provide value to various stakeholders, we created a notification to prompt proper usage of the app from users. We also wanted to include a method for ResMed to collect personal user data, leading to the sleep rating. Finally, all the data collection lead to user safety considerations, so we decided to create an onboarding notification asking for permission to collect data to ensure user consent and comfort.<br><br>
+        One piece of feedback we received discussed providing more value to multiple stakeholders. To address this, in our final prototype we expanded our resources page to be more comprehensive, providing multiple sources of information. We also hoped this would target a pain point gained from initial research regarding sleep apnea patients lacking a sense of community and belonging.</p>
+        <img src="mysleephighfi.jpg" class="fadein" alt="High-Fidelity digital prototype of MySleep app" width="100%">
+    </div>
+
+    <div class="end" style="margin-bottom: 15%;">
+        <h3 class="fadein">Final App</h3>
+        <img src="mysleepfinal.jpg" class="fadein" alt="Final design of MySleep app" width="100%">
+    </div>
+
+</div>
+
+<!-- FOOTER -->
+
+<hr class="fadein long">
+
+<div class="fadein footer">
+    <i class="fa fa-copyright" aria-hidden="true"></i>&nbsp; Jennie Lee, 2022</i>
+</div>
+
+</body>

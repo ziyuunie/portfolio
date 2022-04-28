@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="script.js"></script>
+</head>
+
+<body>
+
+<!-- MENU -->
+
+<div class="menu" id="myMenu">
+    <a href="index.html" class="active">Home</a>
+    <a href="about.html" class="inactive">About</a>
+    <div class="dropdown">
+        <button class="dropbtn">Work &nbsp;
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+            <a href="spin.html">Spin Dashboard</a>
+            <a href="mysleep.html">MySleep</a>
+            <a href="onestop.html">OneStopPGH</a>
+        </div>
+    </div>
+    <a href="https://drive.google.com/file/d/1qhVNtvJ2KVQ9paKAxppkxDeh5rPAeAQp/view?usp=sharing" target="_blank" class="inactive">Resume</a>
+    <a href="javascript:void(0);" class="icon" onclick="responsiveMenu()">
+        <div class="mobilemenu black">
+            <i class="fa fa-bars"></i>
+        </div>
+    </a>
+</div>
+
+<hr class="long">
+
+<!-- LANDING -->
+
+<h1 style="margin-top: 15%; color: #5d3fd3;">I'm
+    <span
+         class="fillers"
+         data-period="2000"
+         data-rotate='[ "Jennie", "a Designer", "a Researcher", "a Creative" ]'>
+     </span>
+</h1>
+
+<h2 style="margin: 0% 15% 15%;">I love to create meaningful, accessible, and human-centered design experiences.<br>Currently, I'm studying <a href="https://www.hcii.cmu.edu/" class="cmu">Human-Computer Interaction</a> & <a href="https://www.cmu.edu/tepper/" class="cmu">Business Administration</a> at Carnegie Mellon University.</h2>
+
+<hr class="fadein solid">
+
+<!-- WORK -->
+
+<div class="fadein slideshow" id="work" style="margin-bottom: 15%;">
+    <div class="mySlides" style="display: block;">
+        <div class="row">
+            <div class="column left">
+                <img src="spin.jpg" alt="Spin Scooters dashboard mockup" width="100%">
+            </div>
+            <div class="column right">
+                <i class="fa fa-tag" aria-hidden="true"></i>&nbsp;&nbsp;UX/UI<br><br>
+                <a href="spin.html" class="project">Spin Dashboard</a>
+                <p style="color:#899499;">Spin is a leading micromobility company that powers individual mobility for the benefit of all to create a world full of 15-minute cities...</p>
+                <a href="spin.html" class="readmore">Read more &nbsp;
+                    <i class="fa fa-angle-right" aria-hidden="true" style="color: black;"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="mySlides">
+        <div class="row">
+            <div class="column left">
+                <img src="mysleep.jpg" alt="mySleep app for ResMed mockup" width="100%">
+            </div>
+            <div class="column right">
+                <i class="fa fa-tag" aria-hidden="true"></i>&nbsp;&nbsp;UX/UI<br><br>
+                <a href="mysleep.html" class="project">mySleep</a>
+                <p style="color:#899499;">From sleep apnea to respiratory conditions including COPD, ResMed has innovative solutions to help people live a healthier life...</p>
+                <a href="mysleep.html" class="readmore">Read more &nbsp;
+                    <i class="fa fa-angle-right" aria-hidden="true" style="color: black;"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="mySlides">
+        <div class="row">
+            <div class="column left">
+                <img src="onestop.jpg" alt="oneStopPGH website" width="100%">
+            </div>
+            <div class="column right">
+                <i class="fa fa-tag" aria-hidden="true"></i>&nbsp;&nbsp;Research<br><br>
+                <a href="onestop.html" class="project">OneStopPGH</a>
+                <p style="color:#899499;">OneStopPGH is your one stop shop where Pittsburgh residents can apply, pay for, and recieve business licenses and permits, upload development...</p>
+                <a href="onestop.html" class="readmore">Read more &nbsp;
+                    <i class="fa fa-angle-right" aria-hidden="true" style="color: black;"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1)">
+        <i class="fa fa-chevron-left"></i></a>
+    <a class="next" onclick="plusSlides(1)">
+        <i class="fa fa-chevron-right"></i></a>
+</div>
+
+<!-- FOOTER -->
+
+<hr class="fadein long">
+
+<div class="fadein footer">
+    <i class="fa fa-copyright" aria-hidden="true"></i>&nbsp; Jennie Lee, 2022</i>
+</div>
+
+</body>
