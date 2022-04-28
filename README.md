@@ -1,7 +1,8 @@
 a.  Video:
 
 b.  Figma: https://www.figma.com/file/ZJKma3QCroawNOFogtgduW/hw-%237?node-id=0%3A1
-    Website:
+    Website: https://portfolio-531df.web.app
+    Github: https://github.com/ziyuunie/portfolio
 
 c.  Purpose - UX Design portfolio showcasing classwork
     Information - Capabilities regarding design, what I have experience with, thought process when creating
