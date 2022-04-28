@@ -173,7 +173,7 @@ hr.long {
 }
 
 /* CHANGE CURSOR ON HOVER (WORK TAB) */
-.dropbtn {
+.dropbtn:hover {
   cursor: pointer;
 }
 
