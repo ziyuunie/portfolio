@@ -37,9 +37,7 @@ How - Typewriter animations on the less serious pages to lighten the air
 Adds - Gives the website more of a casual feeling and also adds more anticipation, especially on the home page since it types multiple different things
 
 VI.
-Iterations from HW #7 - More informational header with work dropdown
-More interactive way to take a quick glance at the different pieces and choose which one you want to take a look at
-Changed main color and added some more colorful aspects
+Iterations from HW #7 - More informational header with work dropdown, created more interactive way to take a quick glance at all the different portfolio pieces and choose which one you want to take a look at, changed main point color and added some more colorful and fun aspects
 
 VII.
 Major Challenges - Keeping track to make sure the website was responsive, adjusting small details (sizes, alignment, visibility, colors, etc.), and implementing jQuery
