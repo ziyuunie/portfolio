@@ -40,4 +40,4 @@ VI.
 Iterations from HW #7 - More informational header with work dropdown, created more interactive way to take a quick glance at all the different portfolio pieces and choose which one you want to take a look at, changed main point color and added some more colorful and fun aspects
 
 VII.
-Major Challenges - Keeping track to make sure the website was responsive, adjusting small details (sizes, alignment, visibility, colors, etc.), and implementing jQuery
+Major Challenges - Keeping track to make sure the website was responsive, adjusting small details (sizes, alignment, visibility, colors, etc.), and implementing the jQuery
